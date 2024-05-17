@@ -1,0 +1,68 @@
+.task {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--white);
+  background: var(--gray-500);
+
+}
+
+.task+.task {
+  margin-top: 0.75rem;
+}
+
+.task p {
+  width: 80%;
+  margin-right: 45px;
+}
+
+.task button {
+  cursor: pointer;
+  box-shadow: none;
+}
+
+
+.task button:first-child {
+  background: none;
+  color: var(--blue);
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+}
+
+.task button:hover:first-child {
+  background: var(--gray-400);
+  color: var(--blue-dark);
+}
+
+.task button:last-child {
+  background: none;
+  color: var(--gray-300);
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+}
+
+.task button:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+
+}
+
+.task.completed p {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.task.completed button:first-child {
+  background: none;
+  color: var(--purple-dark);
+  width: 24px;
+  height: 24px;
+  border-radius: 2px;
+}
