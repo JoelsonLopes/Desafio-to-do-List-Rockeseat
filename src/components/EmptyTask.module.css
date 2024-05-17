@@ -1,0 +1,27 @@
+.empty {
+  width: 100%;
+  margin-top: 1.8rem;
+  border-radius: 8px;
+  border-top: 2px solid var(--gray-400);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.empty img {
+  margin-top: 4rem;
+  height: 75px;
+  margin-bottom: 1.5rem;
+}
+
+.empty h2 {
+  font-weight: 700;
+  color: var(--gray-300);
+}
+
+.empty h2+h2 {
+  color: var(--gray-300);
+  font-weight: 400;
+
+}

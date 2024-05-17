@@ -1,0 +1,27 @@
+.header {
+  background: var(--gray-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.5rem 0;
+  gap: 0.5rem;
+}
+
+.header img {
+  height: 1.8rem;
+}
+
+.header strong {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.to {
+  color: var(--blue);
+}
+
+.do {
+  color: var(--purple-dark)
+}
